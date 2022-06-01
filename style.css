@@ -55,7 +55,7 @@
   transition: 0.3s;
 }
 
-.button-1:focus {
+.button-1:active {
   box-shadow: rgb(50 50 93 / 45%) 0px 0px 20px 5px inset,
     rgb(0 0 0 / 30%) 0px 0px 36px 3px inset;
 }
@@ -78,13 +78,13 @@
     rgb(0 0 0 / 30%) 0px 0px 30px 3px;
 }
 
-.button-2:hover {
+.button-2:active {
   /* background-color: white;
   color: hsl(4, 68%, 62%);
   transition: 0.25s; */
 }
 
-.button-2:focus {
+.button-2:active {
   box-shadow: none;
   transform: scale(95%);
 }
@@ -106,12 +106,12 @@
   transition: 0.3s;
 }
 
-.button-3:hover {
+.button-3:active {
   background-color: white;
   color: hsl(4, 68%, 62%);
   transition: 0.25s;
 }
-.button-3:focus {
+.button-3:active {
   box-shadow: rgb(50 50 93 / 45%) 0px 0px 20px 5px inset,
     rgb(0 0 0 / 30%) 0px 0px 36px 3px inset;
   background-color: white;
@@ -137,13 +137,13 @@
     rgb(0 0 0 / 30%) 0px 0px 30px 3px;
 }
 
-.button-4:hover {
+.button-4:active {
   background-color: white;
   color: hsl(4, 68%, 62%);
   transition: 0.25s;
 }
 
-.button-4:focus {
+.button-4:active {
   box-shadow: none;
   transform: scale(95%);
   background-color: white;
@@ -169,13 +169,13 @@
     rgb(0 0 0 / 30%) 1px 8px 4px 0px;
 }
 
-.button-5:hover {
+.button-5:active {
   /* background-color: white;
   color: hsl(4, 68%, 62%);
   transition: 0.25s; */
 }
 
-.button-5:focus {
+.button-5:active {
   box-shadow: none;
   transform: translateY(0.3rem);
   /* background-color: white;
@@ -201,7 +201,7 @@
     rgb(0 0 0 / 30%) 1px 8px 4px 0px;
 }
 
-.button-6:hover {
+.button-6:active {
   background-color: white;
   color: hsl(4, 68%, 62%);
   transition: 0.25s;
