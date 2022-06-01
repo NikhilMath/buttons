@@ -207,7 +207,7 @@
   transition: 0.25s;
 }
 
-.button-6:focus {
+.button-6:active {
   box-shadow: none;
   transform: translateY(0.3rem);
   background-color: white;
