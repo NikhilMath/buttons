@@ -7,6 +7,7 @@
   padding-left: 2rem;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 15rem;
 }
 @media (min-width: 768px) {
   .container {
@@ -26,7 +27,10 @@
 
 .h2-header {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 3rem;
 }
 
 .button {
@@ -142,6 +146,70 @@
 .button-4:focus {
   box-shadow: none;
   transform: scale(95%);
-    background-color: white;
+  background-color: white;
+  color: hsl(4, 68%, 62%);
+}
+
+.button-5 {
+  border-radius: 2rem;
+  color: white;
+  vertical-align: middle;
+  padding: 0.75em 2em;
+  font-family: lg semibold, lg regular, arial, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 1.5px;
+  margin: 0;
+  text-transform: uppercase;
+  border: solid 0.2rem hsl(4, 68%, 62%);
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: rgb(50 50 93 / 45%) 0px 0px 10px 1px,
+    rgb(0 0 0 / 30%) 1px 8px 4px 0px;
+}
+
+.button-5:hover {
+  /* background-color: white;
+  color: hsl(4, 68%, 62%);
+  transition: 0.25s; */
+}
+
+.button-5:focus {
+  box-shadow: none;
+  transform: translateY(0.3rem);
+  /* background-color: white;
+  color: hsl(4, 68%, 62%); */
+}
+
+.button-6 {
+  border-radius: 2rem;
+  color: white;
+  vertical-align: middle;
+  padding: 0.75em 2em;
+  font-family: lg semibold, lg regular, arial, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 1.5px;
+  margin: 0;
+  text-transform: uppercase;
+  border: solid 0.2rem hsl(4, 68%, 62%);
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: rgb(50 50 93 / 45%) 0px 0px 10px 1px,
+    rgb(0 0 0 / 30%) 1px 8px 4px 0px;
+}
+
+.button-6:hover {
+  background-color: white;
+  color: hsl(4, 68%, 62%);
+  transition: 0.25s;
+}
+
+.button-6:focus {
+  box-shadow: none;
+  transform: translateY(0.3rem);
+  background-color: white;
   color: hsl(4, 68%, 62%);
 }
