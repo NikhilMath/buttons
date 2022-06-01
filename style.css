@@ -78,7 +78,7 @@
     rgb(0 0 0 / 30%) 0px 0px 30px 3px;
 }
 
-.button-2:active {
+.button-2:hover {
   /* background-color: white;
   color: hsl(4, 68%, 62%);
   transition: 0.25s; */
@@ -106,7 +106,7 @@
   transition: 0.3s;
 }
 
-.button-3:active {
+.button-3:hover {
   background-color: white;
   color: hsl(4, 68%, 62%);
   transition: 0.25s;
@@ -137,7 +137,7 @@
     rgb(0 0 0 / 30%) 0px 0px 30px 3px;
 }
 
-.button-4:active {
+.button-4:hover {
   background-color: white;
   color: hsl(4, 68%, 62%);
   transition: 0.25s;
@@ -169,7 +169,7 @@
     rgb(0 0 0 / 30%) 1px 8px 4px 0px;
 }
 
-.button-5:active {
+.button-5:hover {
   /* background-color: white;
   color: hsl(4, 68%, 62%);
   transition: 0.25s; */
@@ -201,7 +201,7 @@
     rgb(0 0 0 / 30%) 1px 8px 4px 0px;
 }
 
-.button-6:active {
+.button-6:hover {
   background-color: white;
   color: hsl(4, 68%, 62%);
   transition: 0.25s;
